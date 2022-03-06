@@ -52,7 +52,7 @@ void _tmain(void)
 	cout << "======= Start MutexNoti Test ========" << endl;
 	HANDLE arWaits[2];
 	arWaits[0] = CreateMutex(NULL, TRUE, NULL);
-	arWaits[1] = CreateMutex(NULL, TRUE, NULL);
+	arWaits[1] = CreateMutex(NULL, FALSE, NULL);
 
 	HANDLE arhThreads[MAX_THR_CNT];
 	for (int i = 0; i < MAX_THR_CNT; i++)

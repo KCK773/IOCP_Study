@@ -1,0 +1,3 @@
+﻿  InterLock.cpp
+C:\Users\alzhx\Desktop\서버공부\IOCP공부\IOCP_Study\윈도우프로그래밍 공부\Win_study\InterLock\InterLock.cpp(52,1): warning C4326: 'wmain'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  InterLock.vcxproj -> C:\Users\alzhx\Desktop\서버공부\IOCP공부\IOCP_Study\윈도우프로그래밍 공부\Win_study\Debug\InterLock.exe
