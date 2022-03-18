@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  EchoClient.cpp
+C:\Users\alzhx\Desktop\서버공부\IOCP공부\IOCP_Study\윈도우 시스템 프로그래밍을 구현하는 기술_예제\source\Chap.05\EchoClient\EchoClient.cpp(30,23): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  EchoClient.vcxproj -> C:\Users\alzhx\Desktop\서버공부\IOCP공부\IOCP_Study\윈도우 시스템 프로그래밍을 구현하는 기술_예제\source\Chap.05\0.bin\x86\Debug\EchoClient.exe
+  지정된 경로를 찾을 수 없습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: "del C:\Users\alzhx\Desktop\서버공부\IOCP공부\IOCP_Study\윈도우 시스템 프로그래밍을 구현하는 기술_예제\source\Chap.05\EchoClient\\..\0.bin\x86\Debug\EchoClient.ilk
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: :VCEnd" 명령이 종료되었습니다(코드: 1).

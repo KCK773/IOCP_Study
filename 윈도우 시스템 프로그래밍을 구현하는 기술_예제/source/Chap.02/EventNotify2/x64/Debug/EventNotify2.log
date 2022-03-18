@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  EventNotify2.cpp
+C:\Users\alzhx\Desktop\서버공부\IOCP공부\IOCP_Study\윈도우 시스템 프로그래밍을 구현하는 기술_예제\source\Chap.02\EventNotify2\EventNotify2.cpp(127,24): warning C4267: '=': 'size_t'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  EventNotify2.vcxproj -> C:\Users\alzhx\Desktop\서버공부\IOCP공부\IOCP_Study\윈도우 시스템 프로그래밍을 구현하는 기술_예제\source\x64\Debug\EventNotify2.exe

@@ -1,0 +1,20 @@
+								뮤텍스												크리티컬 섹션
+성능							느림												빠름
+IPC								가능												불가능
+선언							HANDLE hMutex;										CRITICAL_SECTION cs;
+생성 또는 초기화				CreateMutex( "" , FALSE , "")						InitializeCriticalSection(&cs)
+생성시 소유권 지정				CreateMutex( "" , TRUE , "")						불가능
+삭제							CloseHandle(hMutex);								DeleteCriticalSection(&cs)
+무한대기						WaitForSingleObject(hMutex,INFINITE);				EnterCriticalSection(&cs)
+상태 체크						WAitFOrSingleObject(hMutex,0);						TryEnterCriticalSection(&cs)
+타임아웃						WAitFOrSingleObject(hMutex,5000);					불가능
+해제							ReleaseMutex(hMutex)								LeaveCriticalSection(^cs)
+다른 커널 객체와 동시대기		WaitForMultipleObjects()							불가능
+
+
+
+
+
+뮤텍스 , 크리티컬 섹션 , SRW-락 속도
+
+크리티컬 섹션 > SRW-락 > 뮤텍스

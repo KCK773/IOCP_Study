@@ -6,6 +6,8 @@
 
 using namespace std;
 
+//공유자원의 관점에서 세마포어를 바라보는 예
+
 #define MAX_RES_CNT 3
 bool g_bExit = false;
 //스레드 종료를 위한 플래그를 정의한다.

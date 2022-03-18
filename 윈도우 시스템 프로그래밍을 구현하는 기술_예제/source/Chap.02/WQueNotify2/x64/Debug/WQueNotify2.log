@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  WQueNotify2.cpp
+C:\Users\alzhx\Desktop\서버공부\IOCP공부\IOCP_Study\윈도우 시스템 프로그래밍을 구현하는 기술_예제\source\Chap.02\WQueNotify2\WQueNotify2.cpp(111,33): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\alzhx\Desktop\서버공부\IOCP공부\IOCP_Study\윈도우 시스템 프로그래밍을 구현하는 기술_예제\source\Chap.02\WQueNotify2\WQueNotify2.cpp(113,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alzhx\Desktop\서버공부\IOCP공부\IOCP_Study\윈도우 시스템 프로그래밍을 구현하는 기술_예제\source\Chap.02\WQueNotify2\WQueNotify2.cpp(150,14): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\alzhx\Desktop\서버공부\IOCP공부\IOCP_Study\윈도우 시스템 프로그래밍을 구현하는 기술_예제\source\Chap.02\WQueNotify2\WQueNotify2.cpp(154,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  WQueNotify2.vcxproj -> C:\Users\alzhx\Desktop\서버공부\IOCP공부\IOCP_Study\윈도우 시스템 프로그래밍을 구현하는 기술_예제\source\x64\Debug\WQueNotify2.exe
